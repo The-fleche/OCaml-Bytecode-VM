@@ -44,6 +44,22 @@ The machine has been stress-tested with several complex bytecode files:
 - **`wumpus.sobf` & `pinetree.sobf`**: Validates the VM's ability to handle large instruction sets and complex branching logic without memory leaks.
 
 
-## 🚀 Looking Forward
-- **Garbage Collection:** The next step is implementing a Mark-and-Sweep GC to manage the heap automatically.
-- **Performance:** Exploring `computed gotos` (a GCC extension) to replace the `switch` statement for faster instruction dispatching.
+## 📂 Repository Structure
+
+- `/src`: Core C source files and headers.
+- `/docs`: Detailed project report (PDF).
+- `/test`: Sample bytecode files (`.sobf`) for testing, along with explanation files (`.txt`).
+
+
+## How to run the VM
+1. **Build the executable:**
+   Use the `make` command to compile the project:
+   ```bash
+   make
+   ```
+2. Execute a bytecode file: 
+   ```bash
+   ./vm path/to/file.sobf [--print-end-machine]
+   ```
+
+--print-end-machine: Optional argument to display the final state of the VM (Accumulator, Stack, and Global values) after execution.

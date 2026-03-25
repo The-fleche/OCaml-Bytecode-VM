@@ -1,0 +1,2 @@
+Lit un entier n sur l'entrée standard.
+Affiche la factorielle de n sur la sortie standard (pour 0 <= n <= 20)

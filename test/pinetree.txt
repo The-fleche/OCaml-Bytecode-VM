@@ -1,0 +1,2 @@
+Lit un entier n sur l'entrée standard.
+Affiche un demi-sapin d'étoiles de hauteur n(n+1)/2 sur la sortie standard

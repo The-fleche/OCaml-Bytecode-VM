@@ -1,0 +1,2 @@
+Le jeu classique de la chasse au wumpus.
+Il est normal que le programme ne termine jamais.
