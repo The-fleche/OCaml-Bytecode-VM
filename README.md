@@ -26,7 +26,7 @@ The VM reads binary instructions from a program counter (PC), decodes the opcode
 
 
 ## 🛠 Technologies & Tools
-- **Language:** C (Standard ISO/IEC 9899).
+- **Language:** C
 - **Tooling:** GCC for compilation, GDB for low-level debugging.
 - **Architecture:** Stack + Accumulator VM.
 
