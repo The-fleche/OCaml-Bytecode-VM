@@ -24,7 +24,7 @@ The VM reads binary instructions from a program counter (PC), decodes the opcode
 - **Control Flow:** Conditional (`BRANCHIF`) and unconditional (`BRANCH`) jumps.
 - **Context Management:** `PUSH`, `POP`, and `ACC` for stack frame manipulation.
 
-![Schéma explicatif du fonctionnement global de la VM](docs/Schéma explicatif.png)
+![Schéma explicatif du fonctionnement global de la VM](docs/Schema_explicatif.png)
 
 ## 🛠 Technologies & Tools
 - **Language:** C
