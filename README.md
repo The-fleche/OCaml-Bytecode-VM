@@ -5,8 +5,6 @@ This project is a functional **Virtual Machine (VM)** built in C, designed to br
 
 The goal was to replicate the core execution mechanics of a language like OCaml, focusing on memory efficiency and fast instruction dispatching.
 
----
-
 ## ⚙️ How it Works (Core Logic)
 
 ### 1. The Stack & Accumulator Model
@@ -40,14 +38,11 @@ Building this VM was a deep dive into the "black box" of programming languages. 
 - **Binary Parsing:** I learned how to read and interpret custom binary file formats, ensuring the machine correctly reconstructs instructions from raw bytes.
 - **Debugging Complexity:** Debugging a VM is unique—you aren't just debugging your C code, you're debugging the logic of the program *running inside* your VM.
 
----
-
 ## 🧪 Validated Use Cases
 The machine has been stress-tested with several complex bytecode files:
 - **`fact.sobf`**: Successfully handles recursive-style loops and arithmetic.
 - **`wumpus.sobf` & `pinetree.sobf`**: Validates the VM's ability to handle large instruction sets and complex branching logic without memory leaks.
 
----
 
 ## 🚀 Looking Forward
 - **Garbage Collection:** The next step is implementing a Mark-and-Sweep GC to manage the heap automatically.
