@@ -5,6 +5,8 @@ This project is a functional **Virtual Machine (VM)** built in C, designed to br
 
 The goal was to replicate the core execution mechanics of a language like OCaml, focusing on memory efficiency and fast instruction dispatching.
 
+> 📑 **Looking for the full technical analysis?** [Read the Project Report (PDF)](./docs/Rapport_EL_KHAZROUNI_Hicham.pdf)
+
 ## ⚙️ How it Works (Core Logic)
 
 ### 1. The Stack & Accumulator Model
